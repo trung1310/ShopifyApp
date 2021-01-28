@@ -6,7 +6,6 @@ import { AppProvider } from "@shopify/polaris";
 import { Provider } from "@shopify/app-bridge-react";
 import "@shopify/polaris/dist/styles.css";
 import translations from "@shopify/polaris/locales/en.json";
-import './index.css';
 
 const client = new ApolloClient({
   fetch: fetch,
@@ -16,7 +15,7 @@ const client = new ApolloClient({
 });
 class MyApp extends App {
   render() {
-    const { Component, pageProps, shopOrigin = '24d940ed5e85.ngrok.io' } = this.props;
+    const { Component, pageProps, shopOrigin = '17a88974e2bf.ngrok.io' } = this.props;
     return (
       <AppProvider i18n={translations}>
         <Provider
