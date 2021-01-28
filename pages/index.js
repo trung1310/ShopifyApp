@@ -1,7 +1,7 @@
 import { Heading, Page, Layout } from "@shopify/polaris";
 import Login from '../modules/Login/Login';
 import LoginThirdParty from '../modules/LoginThirdParty/LoginThirdParty';
-import styles from './style.scss';
+import './style.scss';
 
 const Index = () => (
   <Page>
