@@ -1,17 +1,23 @@
 import { Heading, Page, Layout } from "@shopify/polaris";
 import Login from '../modules/Login/Login';
 import LoginThirdParty from '../modules/LoginThirdParty/LoginThirdParty';
-import './style.scss';
+import styles from './style.scss';
 
 const Index = () => (
   <Page>
-    <Layout className='layout-top'>
-      <Heading>USACI Store</Heading>
-      <Login />
-    </Layout>
-    <Layout className='layout-bottom'>
-      <LoginThirdParty />
-    </Layout>
+    <div className='layoutTop'>
+      <Layout>
+        <Heading>USACI Store</Heading>
+        <Login />
+      </Layout>
+    </div>
+
+    <div className='layoutBottom'>
+      <Layout >
+      <Heading>Login Social</Heading>
+        <LoginThirdParty />
+      </Layout>
+    </div>
   </Page>
 );
 

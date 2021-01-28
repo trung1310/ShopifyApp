@@ -1,5 +1,23 @@
 
-.Polaris-Heading{
-    color: lightcoral !important;
+
+
+.layoutTop{
+    .Polaris-Layout{
+        background-color: blue !important;
+    }
+
+    .Polaris-Heading{
+        color: lightcoral !important;
+    }
+}
+
+.layoutBottom{
+    .Polaris-Layout{
+        background-color: red !important;
+    }
+
+    .Polaris-Heading{
+        color: lightsteelblue !important;
+    }
 }
 
