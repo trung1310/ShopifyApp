@@ -1,23 +1,21 @@
-
-
-
 .layoutTop{
     .Polaris-Layout{
-        background-color: lightsteelblue !important;
-    }
-
-    .Polaris-Heading{
-        color: lightcoral !important;
+        background-color: lightsteelblue;
     }
 }
 
 .layoutBottom{
+    height: auto;
+    margin-top: 100px;
     .Polaris-Layout{
-        background-color: lightsalmon !important;
+        background-color: lightsalmon ;
     }
 
     .Polaris-Heading{
-        color: lightskyblue !important;
+        color: lightskyblue;
+        font-size: 30px;
     }
 }
+
+
 

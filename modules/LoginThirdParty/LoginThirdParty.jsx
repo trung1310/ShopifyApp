@@ -40,15 +40,19 @@ function LoginThirdParty() {
 
   return (
     <div>
-      <GoogleLogin
-        clientId={clientId}
-        buttonText="Login"
-        onSuccess={onSuccess}
-        onFailure={onFailure}
-        cookiePolicy={'single_host_origin'}
-        style={{ marginTop: '100px' }}
-        isSignedIn={true}
-      />
+      {
+        user.name !== '' ? null : (
+          <GoogleLogin
+            clientId={clientId}
+            buttonText="Login"
+            onSuccess={onSuccess}
+            onFailure={onFailure}
+            cookiePolicy={'single_host_origin'}
+            style={{ marginTop: '100px' }}
+            isSignedIn={true}
+          />
+        )
+      }
       {
         user.name !== '' ? (
           <>
