@@ -17,14 +17,14 @@ const client = new ApolloClient({
 });
 class MyApp extends App {
   render() {
-    const { Component, pageProps, shopOrigin = '17a88974e2bf.ngrok.io' } = this.props;
+    const { Component, pageProps, shopOrigin = '9f06ae79edea.ngrok.io' } = this.props;
     return (
       <AppProvider i18n={translations}>
         <Provider
           config={{
             apiKey: API_KEY,
             shopOrigin: shopOrigin,
-            forceRedirect: false,
+            forceRedirect: true,
           }}
         >
           <ClientRouter />

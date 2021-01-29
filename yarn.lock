@@ -9175,6 +9175,11 @@ stealthy-require@^1.1.1:
   resolved "https://registry.yarnpkg.com/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
   integrity sha1-NbCYdbT/SfJqd35QmzCQoyJr8ks=
 
+store-js@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/store-js/-/store-js-2.0.4.tgz#9fdcaa272d8cbd59a75a7c6d0b55257cab12db2f"
+  integrity sha512-ap3Tcpc5kbPnUOpty9g5v7XozAxPylPokzhPxnQ4EtyTbjt+pHw4GVgxkng8vxcT1R9ZShXY/aCKqAQrhjTESA==
+
 stream-browserify@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/stream-browserify/-/stream-browserify-3.0.0.tgz#22b0a2850cdf6503e73085da1fc7b7d0c2122f2f"
