@@ -34,7 +34,7 @@ const Index = () => {
           <TitleBar
             title="Sample App"
             primaryAction={{
-              content: 'Select products',
+              content: 'Choose products',
               onAction: () => setOpen(true),
             }}
           />
