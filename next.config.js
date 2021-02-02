@@ -13,8 +13,10 @@ module.exports = withCSS(withSass({
       test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
       use: {
         loader: "url-loader",
+        loader: "file-loader",
         options: {
           limit: 100000,
+          outputPath: 'images',
         },
       },
     })
