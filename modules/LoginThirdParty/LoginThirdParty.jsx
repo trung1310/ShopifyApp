@@ -4,7 +4,6 @@ import {DisplayText, Button} from '@shopify/polaris';
 
 // refresh token
 import { refreshTokenSetup } from '../../utils/refreshToken';
-import ggIcon from '../../public/images/google.svg';
 import Image from 'next/image'
 
 const clientId =
@@ -92,14 +91,8 @@ function LoginThirdParty() {
         user.name !== '' ? (
           <>
           <DisplayText size="medium">Good morning, {user.name}.</DisplayText>
-          {/* <GoogleLogout
-            clientId={clientId}
-            buttonText="Logout"
-            onLogoutSuccess={onSuccess}
-          /> */}
           <div className='button'>
             <Button onClick={signOut}>
-              {/* <img alt='googleIcon' src={ggIcon} className='icon' /> */}
               <Image 
                 src='/images/google.svg'
                 alt="Picture of the author"
